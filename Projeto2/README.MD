@@ -12,18 +12,18 @@ As variáveis variance, skewness, curtosis e entropy foram utilizadas como atrib
 
 O dataset foi dividido em 70% para treinamento e 30% para teste, utilizando random_state=1. Foram implementados cinco algoritmos: K-Nearest Neighbors (KNN), Árvore de Decisão, Random Forest, Support Vector Machine (SVM) e Multilayer Perceptron (MLP), conforme os parâmetros especificados no desafio.
 
-## Avaliação
 
-Os modelos foram treinados e avaliados utilizando o conjunto de teste. Para a comparação, foram calculadas as métricas de acurácia, precisão, recall e F1-score, além das respectivas matrizes de confusão.
+## Resultados e Conclusão
 
-**Melhor resultado observado:** [preencher após a execução].
+Após o treinamento e a avaliação dos cinco algoritmos de classificação, observou-se um desempenho elevado na identificação de cédulas genuínas e falsificadas.
 
-**Acurácia do melhor modelo:** [preencher com o valor obtido].
+Os modelos MLP (Multilayer Perceptron) e SVM (Support Vector Machine) obtiveram os melhores resultados, alcançando acurácia, precisão, recall e F1-score de 1,0000, equivalentes a 100% nas métricas apresentadas para o conjunto de teste.
 
-## Conclusão
+O algoritmo KNN também apresentou excelente desempenho, com acurácia de 99,76% e F1-score de 0,9972. O Random Forest obteve acurácia de 99,51%, enquanto a Árvore de Decisão apresentou 98,79%.
 
-O experimento permitiu aplicar conceitos de análise exploratória, preparação de dados, treinamento supervisionado e avaliação comparativa de classificadores.
+Os resultados demonstram que os cinco algoritmos foram capazes de aprender padrões relevantes nos atributos numéricos do dataset Banknote Authentication. A comparação também evidenciou diferenças de desempenho entre os métodos, destacando o MLP e o SVM nesta divisão experimental.
 
-A comparação entre os algoritmos possibilitou observar diferenças de desempenho na identificação das classes e compreender a importância de utilizar múltiplas métricas para avaliar modelos preditivos.
+Conclui-se que os objetivos propostos foram alcançados, contemplando a análise exploratória dos dados, a separação entre treinamento e teste, a implementação de diferentes algoritmos supervisionados e a comparação dos modelos por meio de métricas de classificação.
 
-Os resultados obtidos demonstram como técnicas de Machine Learning podem ser aplicadas a problemas de classificação com dados numéricos extraídos de imagens, respeitando a necessidade de avaliar o desempenho em dados não utilizados durante o treinamento.
+Como possibilidade de evolução, recomenda-se realizar validação cruzada e avaliar o desempenho em dados independentes adicionais, a fim de investigar a capacidade de generalização dos modelos antes de qualquer aplicação prática.
+
